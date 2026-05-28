@@ -7,6 +7,8 @@
 
 # SiO₂ Glass via Melt-Quench (amorphouspy)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Atilaac/amorphouspy_meltquench/HEAD?labpath=example.ipynb)
+
 Demonstrates a minimal melt-quench workflow for producing a silica glass structure using **amorphouspy** + LAMMPS.
 
 ## Installation
