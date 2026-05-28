@@ -1,0 +1,25 @@
+name: Notebooks
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.13"
+          environment-file: .github/ci_support/environment.yml
+          auto-activate-base: false
+
+      - name: Execute notebooks
+        shell: bash -l {0}
+        run: bash .github/ci_support/build_notebooks.sh

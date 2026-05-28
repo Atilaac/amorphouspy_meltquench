@@ -1,0 +1,8 @@
+shik_tables/
+*.tbl
+*-out.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.extxyz
+*.xyz
