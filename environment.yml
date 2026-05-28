@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.13
-  - lammps=2024.08.29=*_openmpi_*
+  - lammps=2024.08.29=*mpi_openmpi*
   - ase
   - lammpsparser
   - numba
