@@ -1,8 +1,8 @@
 channels:
   - conda-forge
 dependencies:
-  - python = "3.13.*"
-  - lammps = "==2024.08.29"
+  - python=3.13.*
+  - lammps==2024.08.29
   - ase
   - numpy
   - pandas
