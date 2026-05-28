@@ -1,9 +1,10 @@
 name: amorphouspy-meltquench
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.13
-  - lammps=2024.08.29=*mpi_openmpi*
+  - lammps=2024.08.29=cpu_py313_h9656793_mpi_openmpi_9
   - ase
   - lammpsparser
   - numba
@@ -13,8 +14,3 @@ dependencies:
   - networkx
   - pymatgen
   - matplotlib
-  - jupyter
-  - pip
-  - pip:
-    - amorphouspy
-    - PyMCubes
