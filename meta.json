@@ -1,6 +1,6 @@
 {
     "workflow_environment": "amorphouspy",
-    "title": "SiO₂ Glass via Melt-Quench",
+    "title": "Silica Glass via Melt-Quench",
     "authors": [
         "Achraf Atila <achraf.atila@bam.de>"
     ],
@@ -35,9 +35,8 @@
         "LAMMPS": "GPL-2.0-or-later"
     },
     "publications": [
-        "Sundararaman, S., Huang, L., Ispas, S., & Kob, W. (2018). New interaction potentials for alkali and alkaline-earth aluminosilicate glasses. Journal of Chemical Physics, 148(19), 194504.",
-        "Sundararaman, S., Huang, L., Ispas, S., & Kob, W. (2019). New interaction potentials for borate glasses with mixed network formers. Journal of Chemical Physics, 150(15), 154505.",
-        "Plimpton, S. (1995). Fast parallel algorithms for short-range molecular dynamics. Journal of Computational Physics, 117(1), 1-19."
+        "Sundararaman, S., et al. (2018). New interaction potentials for alkali and alkaline-earth aluminosilicate glasses. Journal of Chemical Physics, 148(19), 194504.",
+        "Thompson, A. P., et al. (2022). LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales. Computer Physics Communications, 271, 108171."
     ],
     "logo": "logo_dark.png"
 }
