@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo_dark.png">
-    <img src="logo.png" alt="amorphouspy logo" width="400"/>
-  </picture>
+  <img src="logo.png" alt="amorphouspy logo" width="400"/>
 </p>
 
 # Silica Glass via Melt-Quench (amorphouspy)
