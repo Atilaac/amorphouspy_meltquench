@@ -7,6 +7,7 @@
     "description": "Minimal workflow for producing a silica glass structure from a multi-stage melt-quench simulation using amorphouspy and LAMMPS with the SHIK interatomic potential.",
     "release": "0.1.0",
     "keywords": [
+        "workflow",
         "glass",
         "SiO2",
         "melt-quench",
